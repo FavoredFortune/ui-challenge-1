@@ -1,22 +1,36 @@
 *{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 h1 {
   font-size: 2vw;
 }
 
+body{
+  margin:0px auto;
+}
+
 main{
   margin:0px;
+  margin-right: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* mobile view with breakpoint of 800px viewscreen */
 @media only screen and (max-width: 800px){
+
+  body{
+    align-self: center;
+    margin:3%;
+  }
+
   .mobile{
 
-  }
-  
-  .grid-container{
-    display:inline;
   }
 
   .desktop{
@@ -29,11 +43,6 @@ main{
   }
 /* create all mobile image placeholders */
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
  #header-a {
     background: steelblue;
     width: 480px;
@@ -84,7 +93,7 @@ main{
   }
 
   #mid-g-left{    
-    background: darkslategray;
+    background:peachpuff;
     width: 240px;
     height: 250px;
     float: left;
@@ -114,13 +123,12 @@ main{
 /* desktop view with breakpoint of 800px viewscreen */
 @media only screen and (min-width: 800px){
  
-  main{
-    width: 960px;
+  body{
+    margin:3%
   }
-  img {
-  border:2px solid black;
-  margin:0px; 
-  width: 100%;
+  main nav{
+    width: 960px;
+    margin: 0px auto;
   }
 
   .mobile{
@@ -132,25 +140,24 @@ main{
     width: auto;
   }
 
-  .grid-container-desk{
-    grid-template-columns: [first] 200px [line2] 160px[line3] auto [line4] auto[line5] 160px [line6]  160px;
-    grid-template-rows: [row1-start] 100px [row1-end] 200px [third-line] 250[last-line] auto;
-    }
-
-  li .top {
-  
-    display: inline-block;
-    list-style-type: none;
-    text-decoration-style: none;
-    }
-  
-  #tower-b-desk{
-    grid-column-start: 1;
-    grid-column-end: span line2;
-    grid-row-start: 2;
-    grid-row-end: span line4;
+  .desktop-view{
+    width:760px;
+    height: 600px;
+    float:right;
+    margin: 0px
   }
-  /* create all mobile image placeholders */
+  
+  .efgh-container{
+    width: 1000px;
+    height: 190px;
+  }
+
+  .cd-container{
+    width:760px;
+    height:200px;
+  }
+
+  /* create all desktop image placeholders */
     #header-a-desk {
     background: steelblue;
     width: 960px;
@@ -164,7 +171,11 @@ main{
     width: 200px;
     height: 600px;
     margin:0px;
+    margin-right:-20px
+    margin-right:0px;
     text-align: center;
+    display:inline-block;
+  
     }
 
     #top-c-left{    
@@ -173,6 +184,7 @@ main{
     height: 200px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #top-d-right{    
@@ -181,6 +193,7 @@ main{
     height: 200px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #mid-e-far-left{    
@@ -189,6 +202,7 @@ main{
     height: 250px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #mid-f-left{    
@@ -197,14 +211,16 @@ main{
     height: 250px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #mid-g{    
-    background: darkslategray;
+    background: peachpuff;
     width: 190px;
     height: 250px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #mid-h-far-right{    
@@ -213,6 +229,7 @@ main{
     height: 250px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 
     #bottom-desk-i{    
@@ -221,5 +238,6 @@ main{
     height: 150px;
     margin:0px;
     text-align: center;
+    float: left;
     }
 }
