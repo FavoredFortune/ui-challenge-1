@@ -1,0 +1,243 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2vw;
+}
+
+body{
+  margin:0px auto;
+}
+
+main{
+  margin:0px;
+  margin-right: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* mobile view with breakpoint of 800px viewscreen */
+@media only screen and (max-width: 800px){
+
+  body{
+    align-self: center;
+    margin:3%;
+  }
+
+  .mobile{
+
+  }
+
+  .desktop{
+    display:none;
+  }
+
+  .efgh-container{
+    width: 500px;
+    height: 500px;
+  }
+/* create all mobile image placeholders */
+
+ #header-a {
+    background: steelblue;
+    width: 480px;
+    height: 75px;
+    margin:0px;
+    text-align: center;
+  }
+
+  #tower-b {
+    background: salmon;
+    width: 480px;
+    height: 150px;
+    margin:0px;
+    text-align: center;
+  }
+
+  #top-c{    
+    background: gray;
+    width: 480px;
+    height: 125px;
+    margin:0px;
+    text-align: center;
+  }
+  #top-d{    
+    background: gold;
+    width: 480px;
+    height: 125px;
+    margin:0px;
+    text-align: center;
+  }
+
+  #mid-e-left{    
+    background: lightblue;
+    width: 240px;
+    height: 250px;
+    margin:0px;
+    float: left;
+    text-align: center;
+  }
+
+  #mid-f-right{    
+    background: lightyellow;
+    width: 240px;
+    height: 250px;
+    margin:0px;
+    float:left;
+    text-align: center;
+  }
+
+  #mid-g-left{    
+    background:peachpuff;
+    width: 240px;
+    height: 250px;
+    float: left;
+    margin:0px;
+    text-align: center;
+  }
+
+  #mid-h-right{    
+    background: lightseagreen;
+    width: 240px;
+    height: 250px;
+    float: left;
+    margin:0px;
+    text-align: center;
+  }
+
+  #bottom-i{    
+    background: lightgrey;
+    width: 480px;
+    height: 80px;
+    margin:0px;
+    text-align: center;
+  }
+
+}
+
+/* desktop view with breakpoint of 800px viewscreen */
+@media only screen and (min-width: 800px){
+ 
+  body{
+    margin:3%
+  }
+  main nav{
+    width: 960px;
+    margin: 0px auto;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .desktop{
+    display:block;
+    width: auto;
+  }
+
+  .desktop-view{
+    width:760px;
+    height: 600px;
+    float:right;
+    margin: 0px
+  }
+  
+  .efgh-container{
+    width: 1000px;
+    height: 190px;
+  }
+
+  .cd-container{
+    width:760px;
+    height:200px;
+  }
+
+  /* create all desktop image placeholders */
+    #header-a-desk {
+    background: steelblue;
+    width: 960px;
+    height: 100px;
+    margin:0px;
+    text-align: center;
+    }
+
+    #tower-b-desk {
+    background: salmon;
+    width: 200px;
+    height: 600px;
+    margin:0px;
+    margin-right:-20px
+    margin-right:0px;
+    text-align: center;
+    display:inline-block;
+  
+    }
+
+    #top-c-left{    
+    background: gray;
+    width: 380px;
+    height: 200px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #top-d-right{    
+    background: gold;
+    width: 380px;
+    height: 200px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #mid-e-far-left{    
+    background: lightblue;
+    width: 190px;
+    height: 250px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #mid-f-left{    
+    background: lightyellow;
+    width: 190px;
+    height: 250px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #mid-g{    
+    background: peachpuff;
+    width: 190px;
+    height: 250px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #mid-h-far-right{    
+    background: lightseagreen;
+    width: 190px;
+    height: 250px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+
+    #bottom-desk-i{    
+    background: lightgray;
+    width: 760px;
+    height: 150px;
+    margin:0px;
+    text-align: center;
+    float: left;
+    }
+}
