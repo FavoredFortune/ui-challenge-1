@@ -22,6 +22,7 @@ Requirements
 
 * Thanks to my instructors and TAs.
 * Special thanks to Mikayla Mehelich and Patrica Rafferty for pointing out my error in sytling when intially using placeholder.com images.
+* Thanks to Dawn Aldrich for help in sorting out my tower image spacing and image label placement (make a div!).
 * I referenced our text book: Jon Duckett - HTML and CSS.
 * For best class/id practice, thanks to StackOverflow for a good reminder: https://stackoverflow.com/questions/17366432/multiple-classes-on-single-element-html
 * For CSS grid fundamentals: https://css-tricks.com/snippets/css/complete-guide-grid/
